@@ -1,2 +1,8 @@
 # kyaru-api.js
-👀 Wrapper for kyaru-api written in JavaScript. Get a random picture now!
+
+## How to use?
+```js
+const { main: KuaryAgent } = require("./kuary-api.js");  
+const kuary = new KuaryAgent(`YOU API-KEY`); // API Key
+kuary.get("hug");
+```
