@@ -1,6 +1,6 @@
 {
   "name": "kyaru-api.js",
-  "version": "1.0.4",
+  "version": "2.0.0",
   "description": "👀 Wrapper for kyaru-api written in JavaScript. Get a random picture now!",
   "main": "index.js",
   "scripts": {

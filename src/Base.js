@@ -8,7 +8,7 @@ class KyaryAgent {
     }
     get = async function(endpoint) {
         if(!endpoint) throw new Error("Specify an available endpoint. Documentation -  https://github.com/Kyaru-Development/kyaru-api.js")
-       let res = await fetch(`https://kyaru-api.glitch.me/v1/${endpoint}`, {
+       let res = await fetch(`https://api.kyaru-dev.ml/v2/${endpoint}`, {
             headers: {
                 "Content-Type": "application/json",
                 "Authorization": this.token,
