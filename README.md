@@ -1,8 +1,13 @@
 # kyaru-api.js
 
-## How to use?
+## 🔑 Install
 ```js
-const { main: KuaryAgent } = require("./kuary-api.js");  
-const kuary = new KuaryAgent(`YOU API-KEY`); // API Key
-kuary.get("hug");
+$ npm i kyaru-api.js
+```
+
+## ❓ How to use?
+```js
+const { main: KyaryAgent } = require("kyaru-api.js");  
+const kyary = new KyaryAgent(`YOU API-KEY`); // API Key
+kyary.get("hug");
 ```
