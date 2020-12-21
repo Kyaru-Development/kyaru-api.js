@@ -3,6 +3,7 @@
   "version": "2.0.1",
   "description": "👀 Wrapper for kyaru-api written in JavaScript. Get a random picture now!",
   "main": "index.js",
+  "types": "index.d.ts",
   "scripts": {
     "start": "node ."
   },
